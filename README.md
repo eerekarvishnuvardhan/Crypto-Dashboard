@@ -6,7 +6,7 @@ The application fetches live cryptocurrency market data using the yfinance API a
 
 ---
 
-## Features
+## key Features
 
 📈 Real-time cryptocurrency price tracking
 
@@ -18,12 +18,21 @@ The application fetches live cryptocurrency market data using the yfinance API a
 
 🧭 User-friendly multi-dashboard interface
 
+---
 
+## Forecasting Models Used
 
+ARIMA – Autoregressive Integrated Moving Average
+
+SARIMA – Seasonal ARIMA for capturing seasonality
+
+Prophet – Robust forecasting model developed by Meta
+
+LSTM – Deep learning-based Long Short-Term Memory network
 
 ---
 
-## Technologies Used
+## Technologies Stack
 
 Python
 
@@ -36,7 +45,6 @@ Plotly
 yfinance
 
 Scikit-learn / TensorFlow (for machine learning models, if applicable)
-
 
 ---
 
