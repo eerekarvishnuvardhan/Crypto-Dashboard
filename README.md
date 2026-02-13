@@ -1,4 +1,4 @@
-# Crypto Dashboard 📊
+# Time Series Analysis With Cryptocurrency 📊
 
 The Crypto Dashboard is an interactive Cryptocurrency Price Prediction and Analytics application developed using Python and Streamlit. It offers a comprehensive multi-dashboard interface for real-time cryptocurrency price visualization, forecasting, and technical analysis.
 
