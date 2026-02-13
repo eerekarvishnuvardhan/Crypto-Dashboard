@@ -1,51 +1,39 @@
-Crypto-Dashboard 📊 Time Series Analysis with Cryptocurrency
+# Crypto Dashboard 📊
 
-The Crypto Dashboard is an interactive Cryptocurrency Price Prediction and Analytics application developed using Python and Streamlit. It offers a comprehensive multi-dashboard interface for real-time cryptocurrency price visualization, forecasting, and technical analysis.
+This project is an interactive Cryptocurrency Price Prediction and Analytics Dashboard built using Streamlit, Python, and Machine Learning models. The application provides real-time crypto price visualization, forecasting, and technical analysis in a multi-dashboard interface.
 
-The application fetches live cryptocurrency market data using the yfinance API and applies multiple time-series forecasting and machine learning models to analyze historical trends and predict future price movements.
+The system fetches live cryptocurrency data using yfinance and applies multiple time-series forecasting models such as ARIMA, SARIMA, Prophet, and LSTM to predict future price movements.
 
-Key Features
+---
 
-📈 Real-time cryptocurrency price tracking
+## Features
 
-📊 Interactive and dynamic visualizations using Plotly
+- Interactive dashboard for crypto data  
+- Real-time or historical price visualization  
+- Clean and responsive UI  
+- Easy to use and beginner friendly  
+- Built completely with Python  
 
-🔮 Price forecasting with advanced time-series models
+---
 
-📉 Technical analysis for trend and pattern identification
+## Technologies Used
 
-🧭 User-friendly multi-dashboard interface
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
+- Plotly  
+- Scikit-learn (if used for analysis)  
 
-Forecasting Models Used
+---
 
-ARIMA – Autoregressive Integrated Moving Average
+## How to Run the Project
 
-SARIMA – Seasonal ARIMA for capturing seasonality
+1. Clone or download the repository.
 
-Prophet – Robust forecasting model developed by Meta
+2. Install required libraries:
 
-LSTM – Deep learning-based Long Short-Term Memory network
+3.  Run the application:
 
-Technology Stack
+  - streamlit run timeline.py
 
-Python
-
-Streamlit
-
-Pandas & NumPy
-
-Plotly
-
-yfinance
-
-Scikit-learn / TensorFlow (for machine learning models, if applicable)
-
-How to Run the Project
-
-Clone or download the repository.
-
-Install required libraries:
-
-Run the application:
-
-streamlit run timeline.py
