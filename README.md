@@ -1,29 +1,42 @@
 # Crypto Dashboard 📊
 
-This project is an interactive Cryptocurrency Price Prediction and Analytics Dashboard built using Streamlit, Python, and Machine Learning models. The application provides real-time crypto price visualization, forecasting, and technical analysis in a multi-dashboard interface.
+The Crypto Dashboard is an interactive Cryptocurrency Price Prediction and Analytics application developed using Python and Streamlit. It offers a comprehensive multi-dashboard interface for real-time cryptocurrency price visualization, forecasting, and technical analysis.
 
-The system fetches live cryptocurrency data using yfinance and applies multiple time-series forecasting models such as ARIMA, SARIMA, Prophet, and LSTM to predict future price movements.
+The application fetches live cryptocurrency market data using the yfinance API and applies multiple time-series forecasting and machine learning models to analyze historical trends and predict future price movements
 
 ---
 
 ## Features
 
-- Interactive dashboard for crypto data  
-- Real-time or historical price visualization  
-- Clean and responsive UI  
-- Easy to use and beginner friendly  
-- Built completely with Python  
+📈 Real-time cryptocurrency price tracking
+
+📊 Interactive and dynamic visualizations using Plotly
+
+🔮 Price forecasting with advanced time-series models
+
+📉 Technical analysis for trend and pattern identification
+
+🧭 User-friendly multi-dashboard interface
+
+
+
 
 ---
 
 ## Technologies Used
 
-- Python  
-- Streamlit  
-- Pandas  
-- NumPy  
-- Plotly  
-- Scikit-learn (if used for analysis)  
+Python
+
+Streamlit
+
+Pandas & NumPy
+
+Plotly
+
+yfinance
+
+Scikit-learn / TensorFlow (for machine learning models, if applicable)
+
 
 ---
 
